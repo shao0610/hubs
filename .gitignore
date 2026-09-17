@@ -1,0 +1,40 @@
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+.vite/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Mac specific
+*.DS_Store
+
+# Misc
+coverage/
+
+# Optional: lockfile for pnpm
+.pnpm-debug.log
+
+# Local runtime
+.localhistory/
